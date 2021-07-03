@@ -2,6 +2,7 @@ const rightDiv = document.querySelector('.right-column')
 const leftDiv = document.querySelector('.left-column')
 const overlay = document.querySelector('.overlay')
 const btnClose = document.querySelector('.close-button')
+const sectionImagePreview = document.querySelector('.image-preview')
 
 
 const imgBaseArr = [
@@ -82,6 +83,8 @@ const imgBaseArr = [
 
     document.querySelector('.image_big-view').src = src
 
+    // sectionImagePreview.style.display = 'none';
+
     overlay.style.display = 'block';
 
     document.body.style.overflow = 'hidden'
@@ -97,9 +100,11 @@ const imgBaseArr = [
 
 btnClose.addEventListener('click', function() {
 
+  // sectionImagePreview.style.display = 'block';
+
   overlay.style.display = 'none';
 
-  document.body.style.overflow = 'auto'
+  document.body.style.overflow = 'scroll'
 
 })
 
