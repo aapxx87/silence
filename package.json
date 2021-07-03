@@ -1,0 +1,22 @@
+{
+  "name": "silence",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss style/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aapxx87/silence.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aapxx87/silence/issues"
+  },
+  "homepage": "https://github.com/aapxx87/silence#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

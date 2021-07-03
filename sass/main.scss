@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: black;
+}
+
+
+.image-preview {
+  width: 95%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  // border: 1px solid gray;
+}
+
+.left-column {
+  width: 50%;
+  padding: 5px;
+}
+
+
+.right-column {
+  width: 50%;
+  padding: 5px;
+}
+
+.image-box {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.image {
+  width: 100%;
+  border-radius: 20px;
+}
