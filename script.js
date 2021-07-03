@@ -83,7 +83,6 @@ const imgBaseArr = [
 
     document.querySelector('.image_big-view').src = src
 
-    // sectionImagePreview.style.display = 'none';
 
     overlay.style.display = 'block';
 
@@ -100,11 +99,9 @@ const imgBaseArr = [
 
 btnClose.addEventListener('click', function() {
 
-  // sectionImagePreview.style.display = 'block';
-
   overlay.style.display = 'none';
 
-  document.body.style.overflow = 'scroll'
+  document.body.style.overflow = 'auto'
 
 })
 
