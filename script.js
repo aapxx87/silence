@@ -88,6 +88,9 @@ const imgBaseArr = [
 
     document.body.style.overflow = 'hidden'
 
+    rightDiv.style.zIndex = '-100';
+    leftDiv.style.zIndex = '-100';
+
     })
   })
 //
@@ -102,6 +105,9 @@ btnClose.addEventListener('click', function() {
   overlay.style.display = 'none';
 
   document.body.style.overflow = 'auto'
+
+  rightDiv.style.zIndex = '0';
+  leftDiv.style.zIndex = '0';
 
 })
 
