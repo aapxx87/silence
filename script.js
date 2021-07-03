@@ -44,6 +44,14 @@ const imgBaseArr = [
   ['img36', 'right', 'https://i.pinimg.com/474x/c0/f1/66/c0f1668c7f38c3dbdfbe3566ab5ce326.jpg', ''],
   ['img37', 'right', 'https://i.pinimg.com/474x/bb/df/94/bbdf9470b9979af881ee2d725532f968.jpg', ''],
   ['img38', 'right', 'https://i.pinimg.com/474x/f0/eb/e4/f0ebe49f0a55e386981c027fd0140205.jpg', ''],
+  ['img39', 'right', 'https://i.pinimg.com/474x/ed/eb/59/edeb59cd554c95645fbca777424e3c3c.jpg', ''],
+  ['img40', 'right', 'https://i.pinimg.com/474x/0e/97/9d/0e979d9aa8644068c04a354f88e01467.jpg', ''],
+  ['img41', 'right', 'https://i.pinimg.com/474x/fd/5c/a3/fd5ca31a0c3bedef24d236b8d36c6d10.jpg', ''],
+  ['img42', 'left', 'https://i.pinimg.com/474x/1e/97/35/1e97350c33d22a6f90da8beef8263667.jpg', ''],
+  ['img43', 'left', 'https://i.pinimg.com/474x/03/e8/48/03e848e8edf04e1744ab5dde6fb5f321.jpg', ''],
+  ['img44', 'left', 'https://i.pinimg.com/474x/32/60/f7/3260f72d0980a7a38e7ce8ebb9ffbb63.jpg', ''],
+  ['img45', 'left', 'https://i.pinimg.com/474x/d0/c6/1a/d0c61a5c5c4ca34b4fa45f23fcb59ddb.jpg', ''],
+  ['img46', 'left', 'https://i.pinimg.com/474x/55/4e/76/554e7627abd0f651255f66998db91c35.jpg', ''],
 ]
 
 
