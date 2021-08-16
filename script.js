@@ -125,21 +125,21 @@ const imgBaseArr = [
 
 // Выбираем из массива элементы left
 
-  // пустой массив, который будет заполняться url вертикальных элементов при фильтрации
-  const imgLeft = []
+// пустой массив, который будет заполняться url вертикальных элементов при фильтрации
+const imgLeft = []
 
 
-  // прогоняем циклом и фильтруем элементы с фильтром 'left', их url загоняем в массив imgUrlFilterArrVertical
-  for(let i = 0; i < imgBaseArr.length; i++) {
-    if(imgBaseArr[i][1] == 'left') {
-      imgLeft.push(imgBaseArr[i][2])
-    }
+// прогоняем циклом и фильтруем элементы с фильтром 'left', их url загоняем в массив imgUrlFilterArrVertical
+for (let i = 0; i < imgBaseArr.length; i++) {
+  if (imgBaseArr[i][1] == 'left') {
+    imgLeft.push(imgBaseArr[i][2])
   }
+}
 
-  const numbersLeftArray = imgLeft.length
+const numbersLeftArray = imgLeft.length
 
 
-  for (let i = 0; i < numbersLeftArray; i++) {
+for (let i = 0; i < numbersLeftArray; i++) {
   leftDiv.insertAdjacentHTML("beforeEnd", `<div class="image-box"><img src="${imgLeft[i]}" alt="" class="image"></div>`)
 }
 //
@@ -148,23 +148,23 @@ const imgBaseArr = [
 
 // Выбираем из массива элементы right
 
-  // пустой массив, который будет заполняться url вертикальных элементов при фильтрации
-  const imgRight = []
+// пустой массив, который будет заполняться url вертикальных элементов при фильтрации
+const imgRight = []
 
 
-  // прогоняем циклом и фильтруем элементы с фильтром 'left', их url загоняем в массив imgUrlFilterArrVertical
-  for(let i = 0; i < imgBaseArr.length; i++) {
-    if(imgBaseArr[i][1] == 'right') {
-      imgRight.push(imgBaseArr[i][2])
-    }
+// прогоняем циклом и фильтруем элементы с фильтром 'left', их url загоняем в массив imgUrlFilterArrVertical
+for (let i = 0; i < imgBaseArr.length; i++) {
+  if (imgBaseArr[i][1] == 'right') {
+    imgRight.push(imgBaseArr[i][2])
   }
+}
 
-  const numbersRightArray = imgRight.length
+const numbersRightArray = imgRight.length
 
 
-  for (let i = 0; i < numbersRightArray; i++) {
-    rightDiv.insertAdjacentHTML("beforeEnd", `<div class="image-box"><img src="${imgRight[i]}" alt="" class="image"></div>`)
-  }
+for (let i = 0; i < numbersRightArray; i++) {
+  rightDiv.insertAdjacentHTML("beforeEnd", `<div class="image-box"><img src="${imgRight[i]}" alt="" class="image"></div>`)
+}
 //
 
 
@@ -172,12 +172,12 @@ const imgBaseArr = [
 
 // Открытие кликнутой картинки на главной для отдельного просмотра
 
-  const imgPrevieBoxes = document.querySelectorAll('.image')
+const imgPrevieBoxes = document.querySelectorAll('.image')
 
 
-  imgPrevieBoxes.forEach(function(unit) {
+imgPrevieBoxes.forEach(function (unit) {
 
-    unit.addEventListener('click', function() {
+  unit.addEventListener('click', function () {
 
     const src = unit.src
 
@@ -188,8 +188,8 @@ const imgBaseArr = [
 
     document.body.style.overflow = 'hidden'
 
-    })
   })
+})
 //
 
 
@@ -197,7 +197,7 @@ const imgBaseArr = [
 
 // Закрытие просмотра изображения
 
-btnClose.addEventListener('click', function() {
+btnClose.addEventListener('click', function () {
 
   overlay.style.display = 'none';
 
